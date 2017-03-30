@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="20dp">
+
+    <ImageView
+        android:id="@+id/iv_remote_home"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:scaleType="centerInside"
+        android:src="@mipmap/ic_home_remote"/>
+
+    <ImageView
+        android:id="@+id/iv_remote_back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:scaleType="centerInside"
+        android:src="@mipmap/ic_back_remote"/>
+
+    <ImageView
+        android:id="@+id/iv_remote_menu"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:scaleType="centerInside"
+        android:src="@mipmap/ic_menu_remote"/>
+
+</LinearLayout>
