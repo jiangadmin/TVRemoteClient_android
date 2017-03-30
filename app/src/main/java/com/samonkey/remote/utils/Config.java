@@ -13,6 +13,7 @@ public interface Config {
     // 连接标识
     String SERVER_IP = "00";
     String CLIENT_IP = "01";
+    String SERVER_STOP = "04";
 
     String SERVER_MODE = "02";// 服务端接收反馈
     String CLIENT_MODE = "03";
